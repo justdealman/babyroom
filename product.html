@@ -5,7 +5,6 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<link href="./style.css" rel="stylesheet" type="text/css" title="compact">
 	<script type="text/javascript" src="./js/jquery.js"></script>
-	<script type="text/javascript" src="./js/color.js"></script>
 	<script type="text/javascript" src="./js/easing.js"></script>
 	<script type="text/javascript" src="./js/jcarousel.js"></script>
 	<script type="text/javascript" src="./js/jscrollpane.js"></script>
@@ -16,452 +15,615 @@
 <body>
 	<div class="wrapper">
 		<div class="header">
-			<a href="#"><img src="./images/logo.png" width="398" height="113" alt=""></a>
+			<a href="#" class="logo">
+				<img src="./images/logo.png" width="398" height="113" class="default" alt="">
+				<img src="./images/logo_hover.png" width="398" height="113" class="hover" alt="">
+			</a>
 			<h2>Салон детской одежды</h2>
 			<p><a href="#">Салон мягкой игрушки</a></p>
+			<div class="search">
+				<p><input type="text"></p>
+				<button class="submit"></button>
+			</div>
 		</div>
 		<div class="content">
 			<div class="menu">
-				<div>
-					<a href="#"><img src="./images/playtoday_icon.png" width="200" height="70" alt=""></a>
+				<div class="clothboy">
+					<h4>Мальчики</h4>
 					<ul>
 						<li class="sub boy">
-							<a href="#">Мальчики</a>
+							<a href="#">0 - 24 мес.</a>
 							<div>
 								<div>
-									<h2><span>Playtoday</span> мальчики</h2>
-									<ul>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
-												</div>
-												<h3>Аксессуары</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
-												</div>
-												<h3>Обувь</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon3.png" width="39" height="38" alt="">
-												</div>
-												<h3>PlayToday</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Sport</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Home</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon7.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Микки Маус и друзья</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon8.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Минни Маус</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon9.png" width="90" height="50" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Тачки</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon10.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-									</ul>
+									<h2>Мальчики 0-24 мес.</h2>
+									<div class="scrolldrop">
+										<ul>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
+													</div>
+													<h3>Аксессуары</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
+													</div>
+													<h3>Обувь</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon3.png" width="39" height="38" alt="">
+													</div>
+													<h3>PlayToday</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Sport</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Home</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon7.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Микки Маус и друзья</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon8.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Минни Маус</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon9.png" width="90" height="50" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Тачки</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon10.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="sub boy">
+							<a href="#">3-9 лет</a>
+							<div>
+								<div>
+									<h2>Мальчики 3-9 лет</h2>
+									<div class="scrolldrop">
+										<ul>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
+													</div>
+													<h3>Аксессуары</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
+													</div>
+													<h3>Обувь</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon3.png" width="39" height="38" alt="">
+													</div>
+													<h3>PlayToday</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Sport</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Home</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon7.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Микки Маус и друзья</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon8.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Минни Маус</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon9.png" width="90" height="50" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Тачки</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon10.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="clothgirl">
+					<h4>Девочки</h4>
+					<ul>
+						<li class="sub girl">
+							<a href="#">0-24 мес</a>
+							<div>
+								<div>
+									<h2>Девочки 0-24 мес</h2>
+									<div class="scrolldrop">
+										<ul>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
+													</div>
+													<h3>Аксессуары</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
+													</div>
+													<h3>Обувь</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon3.png" width="39" height="38" alt="">
+													</div>
+													<h3>PlayToday</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Sport</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Home</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon7.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Микки Маус и друзья</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon8.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Минни Маус</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon9.png" width="90" height="50" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Тачки</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon10.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</li>
 						<li class="sub girl">
-							<a href="#">Девочки</a>
+							<a href="#">3-9 лет</a>
 							<div>
 								<div>
-									<h2><span>Playtoday</span> девочки</h2>
-									<ul>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
-												</div>
-												<h3>Аксессуары</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
-												</div>
-												<h3>Обувь</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon3.png" width="39" height="38" alt="">
-												</div>
-												<h3>PlayToday</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Sport</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Home</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon7.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Микки Маус и друзья</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon8.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Минни Маус</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon9.png" width="90" height="50" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Тачки</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon10.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon11.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-									</ul>
+									<h2>Девочки 3-9 лет</h2>
+									<div class="scrolldrop">
+										<ul>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
+													</div>
+													<h3>Аксессуары</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
+													</div>
+													<h3>Обувь</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon3.png" width="39" height="38" alt="">
+													</div>
+													<h3>PlayToday</h3>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Sport</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Home</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon7.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Микки Маус и друзья</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon8.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Минни Маус</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon9.png" width="90" height="50" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Тачки</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
+													</div>
+													<h3>PlayToday</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon7.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Микки Маус и друзья</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon8.png" width="54" height="41" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Минни Маус</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon9.png" width="90" height="50" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Тачки</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon10.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<div>
+														<img src="./images/catalog_girl_icon11.png" width="73" height="101" alt="">
+													</div>
+													<h3>Disney</h3>
+													<p>Baby</p>
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</li>
-						<li><a href="#">О бренде</a></li>
 					</ul>
 				</div>
-				<div>
-					<a href="#"><img src="./images/tuttiquanti.png" width="200" height="70" alt=""></a>
-					<ul>
-						<li class="sub boy">
-							<a href="#">Мальчики</a>
-							<div>
-								<div>
-									<h2><span>Playtoday</span> мальчики</h2>
-									<ul>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
-												</div>
-												<h3>Аксессуары</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
-												</div>
-												<h3>Обувь</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon3.png" width="39" height="38" alt="">
-												</div>
-												<h3>PlayToday</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Sport</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Home</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon7.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Микки Маус и друзья</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon8.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Минни Маус</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon9.png" width="90" height="50" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Тачки</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon10.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_boy_icon11.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</li>
-						<li class="sub girl">
-							<a href="#">Девочки</a>
-							<div>
-								<div>
-									<h2><span>Playtoday</span> девочки</h2>
-									<ul>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon1.png" width="63" height="52" alt="">
-												</div>
-												<h3>Аксессуары</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon2.png" width="62" height="37" alt="">
-												</div>
-												<h3>Обувь</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon3.png" width="39" height="38" alt="">
-												</div>
-												<h3>PlayToday</h3>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon4.png" width="37" height="37" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Sport</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon5.png" width="42" height="41" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Home</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_icon6.png" width="30" height="50" alt="">
-												</div>
-												<h3>PlayToday</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon7.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Микки Маус и друзья</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon8.png" width="54" height="41" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Минни Маус</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon9.png" width="90" height="50" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Тачки</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon10.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<div>
-													<img src="./images/catalog_girl_icon11.png" width="73" height="101" alt="">
-												</div>
-												<h3>Disney</h3>
-												<p>Baby</p>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</li>
-						<li><a href="#">О бренде</a></li>
-					</ul>
-				</div>
+				<h5 class="sale"><a href="#">Sale</a></h5>
+				<h5 class="care"><a href="#">Уход</a></h5>
+				<ul>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Конкурс</a></li>
+					<li><a href="#">Адреса магазинов</a></li>
+				</ul>
 			</div>
 			<ul class="link">
-				<li class="icon1"><a href="#"></a></li>
-				<li class="icon2"><a href="#"></a></li>
 				<li class="icon3"><a href="#"></a></li>
 				<li class="icon4"><a href="#"></a></li>
 				<li class="icon5"><a href="#"></a></li>
@@ -469,15 +631,31 @@
 			<div class="rb">
 				<div class="product">
 					<div class="gallery">
+						<div class="collection">
+							<p><span>Все бренды</span></p>
+							<ul>
+								<li><a href="#">Play Today</a></li>
+								<li><a href="#">Tutti Quanti</a></li>
+								<li><a href="#">School</a></li>
+							</ul>
+						</div>
 						<div class="container">
 							<div>
-								<img src="./images/gallery1.jpg" width="286" height="220" alt="">
+								<div>
+									<img src="./images/gallery1.jpg" width="286" height="220" alt="">
+								</div>
+								<span class="new"></span>
 							</div>
 							<div>
-								<img src="./images/gallery2.jpg" width="286" height="220" alt="">
+								<div>
+									<img src="./images/gallery2.jpg" width="286" height="220" alt="">
+								</div>
+								<span class="sale"></span>
 							</div>
 							<div>
-								<img src="./images/gallery1.jpg" width="286" height="220" alt="">
+								<div>
+									<img src="./images/gallery1.jpg" width="286" height="220" alt="">
+								</div>
 							</div>
 						</div>
 						<ul class="pagination">
@@ -487,56 +665,40 @@
 						</ul>
 					</div>
 					<div class="information">
-						<div class="collection">
-							<p><span>Коллекция</span></p>
-							<ul>
-								<li><a href="#">Весна-Лето 2014</a></li>
-								<li><a href="#">Home Весна-Лето 2014</a></li>
-								<li><a href="#">Sport Весна-Лето 2014</a></li>
-								<li><a href="#">BABY Весна-Лето 2014</a></li>
-								<li><a href="#">Обувь Весна-Лето 2014</a></li>
-								<li><a href="#">Обувь BABY Весна-Лето 2014</a></li>
-								<li><a href="#">Праздничная коллекция 2013-14</a></li>
-								<li><a href="#">Аксессуары для волос 2013-14</a></li>
-								<li><a href="#">Осень-Зима 2013-14</a></li>
-								<li><a href="#">Home Осень-Зима</a></li>
-								<li><a href="#">Sport Осень-Зима</a></li>
-								<li><a href="#">BABY Осень-Зима</a></li>
-								<li><a href="#">Обувь Осень-Зима</a></li>
-								<li><a href="#">Любимые герои</a></li>
-								<li><a href="#">101 Dalmatians</a></li>
-								<li><a href="#">Spider Man</a></li>
-								<li><a href="#">Самолеты</a></li>
-								<li><a href="#">Mickey Mouse</a></li>
-								<li><a href="#">Тачки</a></li>
-								<li><a href="#">Университет монстров</a></li>
-								<li><a href="#">Смурфики</a></li>
-								<li><a href="#">Девочки</a></li>
-								<li><a href="#">Minnie Mouse</a></li>
-								<li><a href="#">Bambi</a></li>
-								<li><a href="#">Коты аристократы</a></li>
-								<li><a href="#">Смурфики</a></li>
-								<li><a href="#">Муми-Тролль</a></li>
-								<li><a href="#">Распродажа</a></li>
-								<li><a href="#">Распродажа BABY</a></li>
-							</ul>
-						</div>
-						<h1>Пальто</h1>
+						<h1>Пальто <a href="#"><img src="./images/playtoday_h1_icon.png" width="151" height="35" alt=""></a></h1>
 						<div class="options">
-							<h3>2 656<span>p</span></h3>
+							<h3><em>2 656</em><span>p</span></h3>
 							<button class="order"><span>Заказать</span></button>
 						</div>
 						<p>Артикул: 337002</p>
+						<div class="sizes">
+							<h4>Размеры:</h4>
+							<p>возраст 3, 4, 5, 6, 7, 8 лет</p>
+							<p>рост 98, 104, 110, 116, 122, 128</p>
+						</div>
 						<div class="scroll">
 							<div>
 								<h4>Платье:</h4>
 								<ul>
-									<li>великолепное утепленное вельветовое пальто с капюшоном на раннюю осень для мальчика трикотажный капюшон с ярко-оранжевыми завязками; пристегивается на пуговицы</li>
-									<li>два функциональных кармана застежка - молния и пуговицы модель декорирована хлястиками на манжетах и шевроном с названием коллекции "baby bear"</li>
-									<li>великолепное утепленное вельветовое пальто с капюшоном на раннюю осень для мальчика трикотажный капюшон с ярко-оранжевыми завязками; пристегивается на пуговицы</li>
-									<li>два функциональных кармана застежка - молния и пуговицы модель декорирована хлястиками на манжетах и шевроном с названием коллекции "baby bear"</li>
-									<li>великолепное утепленное вельветовое пальто с капюшоном на раннюю осень для мальчика трикотажный капюшон с ярко-оранжевыми завязками; пристегивается на пуговицы</li>
-									<li>два функциональных кармана застежка - молния и пуговицы модель декорирована хлястиками на манжетах и шевроном с названием коллекции "baby bear"</li>
+									<li>великолепное утепленное вельветовое пальто с капюшоном на раннюю осень для мальчика</li>
+									<li>трикотажный капюшон с ярко-оранжевыми завязками; пристегивается на пуговицы</li>
+									<li>отложной воротник</li>
+									<li>два функциональных кармана</li>
+									<li>застежка - молния и пуговицы</li>
+									<li>модель декорирована хлястиками на манжетах и шевроном с названием коллекции "baby bear"</li>
+								</ul>
+								<h4>Цвет:</h4>
+								<ul>
+									<li>бежевый, оранжевый, коричневый</li>
+								</ul>
+								<h4>Платье:</h4>
+								<ul>
+									<li>великолепное утепленное вельветовое пальто с капюшоном на раннюю осень для мальчика</li>
+									<li>трикотажный капюшон с ярко-оранжевыми завязками; пристегивается на пуговицы</li>
+									<li>отложной воротник</li>
+									<li>два функциональных кармана</li>
+									<li>застежка - молния и пуговицы</li>
+									<li>модель декорирована хлястиками на манжетах и шевроном с названием коллекции "baby bear"</li>
 								</ul>
 							</div>
 						</div>
@@ -547,18 +709,28 @@
 		<div class="set">
 			<h3>Товары в комплекте</h3>
 			<ul>
-				<li><a href="#"><img src="./images/set1.jpg" width="67" height="100" alt=""></a></li>
-				<li><a href="#"><img src="./images/set2.jpg" width="96" height="59" alt=""></a></li>
-				<li><a href="#"><img src="./images/set3.jpg" width="78" height="82" alt=""></a></li>
-				<li><a href="#"><img src="./images/set4.jpg" width="104" height="92" alt=""></a></li>
-				<li><a href="#"><img src="./images/set5.jpg" width="58" height="81" alt=""></a></li>
-				<li><a href="#"><img src="./images/set6.jpg" width="97" height="95" alt=""></a></li>
-				<li><a href="#"><img src="./images/set1.jpg" width="67" height="100" alt=""></a></li>
-				<li><a href="#"><img src="./images/set2.jpg" width="96" height="59" alt=""></a></li>
-				<li><a href="#"><img src="./images/set3.jpg" width="78" height="82" alt=""></a></li>
-				<li><a href="#"><img src="./images/set4.jpg" width="104" height="92" alt=""></a></li>
-				<li><a href="#"><img src="./images/set5.jpg" width="58" height="81" alt=""></a></li>
-				<li><a href="#"><img src="./images/set6.jpg" width="97" height="95" alt=""></a></li>
+				<li>
+					<span class="new"></span>
+					<div>
+						<a href="#"><img src="./images/set1.jpg" width="67" height="100" alt=""></a>
+					</div>
+				</li>
+				<li>
+					<span class="sale"></span>
+					<div>
+						<a href="#"><img src="./images/set2.jpg" width="96" height="59" alt=""></a>
+					</div>
+				</li>
+				<li><div><a href="#"><img src="./images/set3.jpg" width="78" height="82" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set4.jpg" width="104" height="92" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set5.jpg" width="58" height="81" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set6.jpg" width="97" height="95" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set1.jpg" width="67" height="100" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set2.jpg" width="96" height="59" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set3.jpg" width="78" height="82" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set4.jpg" width="104" height="92" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set5.jpg" width="58" height="81" alt=""></a></div></li>
+				<li><div><a href="#"><img src="./images/set6.jpg" width="97" height="95" alt=""></a></div></li>
 			</ul>
 		</div>
 		<div class="clear"></div>
@@ -577,11 +749,14 @@
 		</div>
 	</div>
 	<div class="popup">
+		<h3>Зайка Ми с зайкой</h3>
+		<h6>Размеры: KS19-004 — 19 сm, KS25-004 — 25 сm, KS30-004 — 30 сm, KS22-004 — 22 сm</h6>
 		<p>
 			<span>Заполните пожалуйста все поля, перед доставкой заказа с Вами свяжется наш менеджер</span>
 			<input type="text" placeholder="ФИО">
 			<input type="text" placeholder="Телефон">
-			<input type="text" placeholder="Адрес">
+			<input type="text" placeholder="Ваш E-mail">
+			<input type="text" placeholder="Адрес доставки">
 		</p>
 		<p>
 			<span>Комментарий</span>
@@ -590,65 +765,85 @@
 		<div>
 			<button class="submit">Отправить</button>
 		</div>
+		<h5>Письмо успешно отправлено!</h5>
 	</div>
 	<div class="panel">
 		<div>
-			<div class="inside">
-				<div>
-					<h2>О компании</h2>
-					<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
-				</div>
-				<div>
-					<h2>Новости</h2>
-					<ul class="news">
-						<li>
-							<p><a href="#">Итоги конкурса</a> 16/12/2013г. 16:30</p>
-							<div>
-								<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
-							</div>
-						</li>
-						<li>
-							<p><a href="#">Новое поступление</a> 19/12/2013г. 14:20</p>
-							<div>
-								<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
-							</div>
-						</li>
-						<li>
-							<p><a href="#">Распродажа</a> 17/12/2013г. 09:30</p>
-							<div>
-								<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h2>Мы в соцсетях</h2>
-					<ul class="social">
-						<li>
-							<span><img src="./images/panel_social_fb.png" width="8" height="15" alt=""></span>
-							<a href="#">vk.com/babyroom_salon</a>
-						</li>
-						<li>
-							<span><img src="./images/panel_social_vm.png" width="11" height="10" alt=""></span>
-							<a href="#">vk.com/babyroom_salon</a>
-						</li>
-						<li>
-							<span><img src="./images/panel_social_od.png" width="9" height="15" alt=""></span>
-							<a href="#">vk.com/babyroom_salon</a>
-						</li>
-						<li>
-							<span><img src="./images/panel_social_tw.png" width="11" height="9" alt=""></span>
-							<a href="#">vk.com/babyroom_salon</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h2>Контакты</h2>
-					<p>Космонавтов проспект, 6в - 1 этаж, ТЦ Алтай 8-963-534-44-77</p>
-					<p>Павловский тракт, 251в, - 2 этаж, ТРЦ Европа 8-963-534-44-77</p>
-					<p>Антона Петрова, 219б - 2 этаж, ТРЦ Огни 8-963-534-44-77</p>
+			<div class="panelscroll">
+				<div class="inside">
 					<div>
-						<img src="./images/map.jpg" width="349" height="184" alt="">
+						<h2>«Baby Room», салон мягкой игрушки и детской одежды</h2>
+						<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
+					</div>
+					<div>
+						<h2>Новости</h2>
+						<ul class="news">
+							<li>
+								<p><a href="#">Итоги конкурса</a> 16/12/2013г. 16:30</p>
+								<div>
+									<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
+								</div>
+							</li>
+							<li>
+								<p><a href="#">Новое поступление</a> 19/12/2013г. 14:20</p>
+								<div>
+									<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
+								</div>
+							</li>
+							<li>
+								<p><a href="#">Распродажа</a> 17/12/2013г. 09:30</p>
+								<div>
+									<p>Мы рады приветствовать Вас, и чтобы познакомиться поближе, хотим немного рассказать о себе. Мы - это отечественная брендовая компания Буди Баса. Рождению нашей компании предшествовал многолетний опыт успешного сотрудничества профессиональных художников и дизайнеров с командой опытных производителей.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h2>Адреса салонов мягкой игрушки</h2>
+						<ul class="contacts">
+							<li>
+								<p>г. Барнаул, Павловский тракт, 251в, 2 этаж, ТРЦ Европа</p>
+								<img src="./images/contact1.jpg" width="248" height="198" alt="">
+								<div>
+									<iframe width="248" height="197" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ru/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=Let's+Rock,+2+%D1%8D%D1%82%D0%B0%D0%B6,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%A8%D1%83%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0,+%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB,+%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9&amp;aq=0&amp;oq=let's&amp;sll=53.33324,83.667235&amp;sspn=0.381742,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.330479,83.675132&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+								</div>
+							</li>
+							<li>
+								<p>г. Барнаул, Павловский тракт, 251в, 2 этаж, ТРЦ Европа</p>
+								<img src="./images/contact1.jpg" width="248" height="198" alt="">
+								<div>
+									<iframe width="248" height="197" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ru/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=Let's+Rock,+2+%D1%8D%D1%82%D0%B0%D0%B6,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%A8%D1%83%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0,+%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB,+%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9&amp;aq=0&amp;oq=let's&amp;sll=53.33324,83.667235&amp;sspn=0.381742,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.330479,83.675132&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+								</div>
+							</li>
+							<li>
+								<p>г. Барнаул, Павловский тракт, 251в, 2 этаж, ТРЦ Европа</p>
+								<img src="./images/contact1.jpg" width="248" height="198" alt="">
+								<div>
+									<iframe width="248" height="197" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ru/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=Let's+Rock,+2+%D1%8D%D1%82%D0%B0%D0%B6,+%D1%83%D0%BB%D0%B8%D1%86%D0%B0+%D0%A8%D1%83%D0%BC%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0,+%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB,+%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9&amp;aq=0&amp;oq=let's&amp;sll=53.33324,83.667235&amp;sspn=0.381742,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.330479,83.675132&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h2>Мы в соцсетях</h2>
+						<ul class="social">
+							<li>
+								<span><img src="./images/panel_social_fb.png" width="8" height="15" alt=""></span>
+								<a href="#">facebook</a>
+							</li>
+							<li>
+								<span><img src="./images/panel_social_vm.png" width="11" height="10" alt=""></span>
+								<a href="#">vkontakte</a>
+							</li>
+							<li>
+								<span><img src="./images/panel_social_od.png" width="9" height="15" alt=""></span>
+								<a href="#">odnoklassniki</a>
+							</li>
+							<li>
+								<span><img src="./images/panel_social_tw.png" width="11" height="9" alt=""></span>
+								<a href="#">twitter</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
