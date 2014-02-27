@@ -522,7 +522,6 @@ button::-moz-focus-inner {
 }
 .product {
 	position:relative;
-	min-height:537px;
 	padding:5px 0 0;
 }
 .product .slider {
