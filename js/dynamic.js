@@ -99,6 +99,8 @@ $(window).load(function() {
 	);
 	$('.index .indexlink.left').delay(1000).animate({'left': '50%', 'opacity': '1'}, 1000, 'easeOutQuint');
 	$('.index .indexlink.right').delay(1000).animate({'right': '50%', 'opacity': '1'}, 1000, 'easeOutQuint');
+	$('.product .slider .container div div img').css({'visibility': 'visible'});
+	$('.product .slider .container .loading').remove();
 });
 $(document).ready(function() {
 	dropcatalog();
@@ -149,6 +151,7 @@ $(document).ready(function() {
 		play: 7500,
 		pause: 2500
 	});
+	$('.product .slider .container').append('<span class="loading"></span>');
 	$('.carousel, .set > ul').jcarousel({
 		scroll: 1,
 		animation: 250,

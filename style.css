@@ -539,6 +539,21 @@ button::-moz-focus-inner {
 	height:540px;
 	text-align:center;
 }
+.product .slider .container .loading {
+	position:absolute;
+	left:237px;
+	top:202px;
+	display:block;
+	width:32px;
+	height:32px;
+	background:url('./images/loading.png') no-repeat left top;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .product .slider .container div div img {
 	position:absolute;
 	top:0;
@@ -547,6 +562,7 @@ button::-moz-focus-inner {
 	left:0;
 	max-width:506px;
 	max-height:540px;
+	visibility:hidden;
 }
 .product .slider .container div div .icon {
 	left:371px !important;
