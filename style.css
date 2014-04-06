@@ -591,6 +591,9 @@ button::-moz-focus-inner {
 	top:2px;
 	width:506px;
 }
+.product .gallery .brandicon {
+	margin:12px 0 -43px;
+}
 .product .gallery .container {
 	position:relative;
 	clear:both;
@@ -738,6 +741,13 @@ button::-moz-focus-inner {
 .product .information > div.options h3 span {
 	font-size:25px;
 	font-family:'Rouble', sans-serif;
+}
+.product .information > div.options h3 strong {
+	color:#999999;
+	font-size:22px;
+	font-weight:normal;
+	text-decoration:line-through;
+	padding:0 18px 0 0;
 }
 .product .information > div.options button {
 	position:relative;
@@ -978,14 +988,14 @@ button::-moz-focus-inner {
 	clear:both;
 	overflow:hidden;
 	padding:8px 0 0;
-	margin:-8px 0 0;
+	margin:-8px 0 -19px;
 }
 .catalog > ul li {
 	position:relative;
-	float:left;
+	display:inline-block;
 	width:172px;
-	height:229px;
-	margin:0 23px 22px 0;
+	vertical-align:top;
+	margin:0 20px 41px 0;
 }
 .catalog > ul li .new, .catalog > ul li .sale {
 	position:absolute;
@@ -1023,9 +1033,9 @@ button::-moz-focus-inner {
 	max-width:162px;
 	max-height:162px;
 	margin:auto;
-	transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
 }
 .catalog > ul li h2 {
 	overflow:hidden;
@@ -1040,6 +1050,29 @@ button::-moz-focus-inner {
 }
 .catalog > ul li h2 a {
 	color:#ffffff;
+}
+.catalog > ul li h5 {
+	color:#ffffff;
+	font-size:16px;
+	line-height:19px;
+	font-weight:normal;
+	font-family:'Boblic', sans-serif;
+	text-align:center;
+	padding:0;
+	margin:0 0 -3px;
+}
+.catalog > ul li h5 span {
+	font-family:'Rouble';
+}
+.catalog > ul li h6 {
+	color:#c9c9c9;
+	font-size:10px;
+	line-height:12px;
+	font-weight:normal;
+	font-family:'Segoe UI', sans-serif;
+	text-align:center;
+	padding:0;
+	margin:-2px 0 -1px;
 }
 .text {
 	margin:0 9.5% 150px 450px;
@@ -1234,9 +1267,9 @@ button::-moz-focus-inner {
 	max-width:108px;
 	max-height:108px;
 	margin:auto;
-	transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
 }
 .set > div .jcarousel-prev-horizontal {
 	position:absolute;
@@ -1406,9 +1439,9 @@ button::-moz-focus-inner {
 	max-width:162px;
 	max-height:162px;
 	margin:auto;
-	transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
+	transform:rotate(15deg);
+	-ms-transform:rotate(15deg);
+	-webkit-transform:rotate(15deg);
 }
 .clothlist li h2 {
 	overflow:hidden;
