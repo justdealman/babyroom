@@ -818,25 +818,25 @@ button::-moz-focus-inner {
 .product .information > .sizes p {
 	margin:0 0 0 16px;
 }
-.product .information .share {
+.product .information ul.share {
 	clear:both;
 	overflow:hidden;
 	margin:26px 0 13px;
 }
-.product .information .share li {
+.product .information ul.share li {
 	float:right;
 	padding:0;
 	margin:0 0 7px 7px;
 	background:none;
 }
-.product .information .share li a {
+.product .information ul.share li a {
 	position:relative;
 	display:block;
 	width:25px;
 	height:25px;
 	background:url('./images/share_bg.png') no-repeat left top;
 }
-.product .information .share li a img {
+.product .information ul.share li a img {
 	position:absolute;
 	top:0;
 	right:0;
@@ -847,7 +847,7 @@ button::-moz-focus-inner {
 	margin:auto;
 	opacity:0.5;
 }
-.product .information .share li a:hover img {
+.product .information ul.share li a:hover img {
 	opacity:1;
 }
 .product .information .scroll {
@@ -1599,6 +1599,10 @@ button::-moz-focus-inner {
 	display:block;
 	width:18px;
 	height:18px;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
 }
 .footer ul li.fb a {
 	background:url('./images/social_fb.png') no-repeat left top;
@@ -2262,4 +2266,65 @@ div.panel .contacts li > div {
 		bottom:0;
 		width:100%;
 	}*/
+}
+
+.product .information div.share {
+	text-align:right;
+	margin:26px 0 13px;
+}
+.product .information div.share > div {
+	display:inline-block;
+	margin-right:-7px;
+}
+.b-share-icon_vkontakte {
+	width:25px !important;
+	height:25px !important;
+	margin-left:2px !important;
+	background:url('./images/share_vkontakte_icon.png') no-repeat left top !important;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+.b-share-icon_vkontakte:hover {
+	background-position:0 -25px !important;
+}
+ .b-share-icon_facebook {
+	width:25px !important;
+	height:25px !important;
+	margin-left:2px !important;
+	background:url('./images/share_facebook_icon.png') no-repeat left top !important;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+.b-share-icon_facebook:hover {
+	background-position:0 -25px !important;
+}
+.b-share-icon_twitter {
+	width:25px !important;
+	height:25px !important;
+	margin-left:2px !important;
+	background:url('./images/share_twitter_icon.png') no-repeat left top !important;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+.b-share-icon_twitter:hover {
+	background-position:0 -25px !important;
+}
+.b-share-icon_odnoklassniki {
+	width:25px !important;
+	height:25px !important;
+	margin-left:2px !important;
+	background:url('./images/share_odnoklassniki_icon.png') no-repeat left top !important;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+.b-share-icon_odnoklassniki:hover {
+	background-position:0 -25px !important;
 }
