@@ -1192,7 +1192,7 @@ button::-moz-focus-inner {
 }
 .set {
 	width:960px;
-	margin:-160px auto 80px;
+	margin:-160px auto 30px;
 }
 .set h3 {
 	color:#009ee0;
@@ -1206,14 +1206,14 @@ button::-moz-focus-inner {
 .set > div {
 	position:relative;
 	width:960px;
-	height:135px;
+	height:235px;
 }
 .set > div .jcarousel-container {
 	margin:0;
 }
 .set > div .jcarousel-container-horizontal {
 	width:960px;
-	height:135px;
+	height:235px;
 }
 .set > div .jcarousel-clip {
     overflow:hidden;
@@ -1221,18 +1221,18 @@ button::-moz-focus-inner {
 .set > div .jcarousel-clip-horizontal {
 	position:relative;
 	width:852px;
-	height:135px;
+	height:235px;
 	margin:0 54px;
 }
 .set > div .jcarousel-item {
 	position:relative;
 	float:left;
 	width:118px;
-	height:118px;
+	height:218px;
 	padding:17px 0 0;
 	margin:0 12px;
 }
-.set > div .jcarousel-item span {
+.set > div .jcarousel-item > span {
 	position:absolute;
 	left:54px;
 	top:0;
@@ -1251,6 +1251,7 @@ button::-moz-focus-inner {
 	position:relative;
 	width:108px;
 	height:108px;
+	margin:0 0 17px;
 	background:#ffffff;
 	border:5px solid #999999;
 	-webkit-border-radius:50%;
@@ -1274,30 +1275,65 @@ button::-moz-focus-inner {
 .set > div .jcarousel-prev-horizontal {
 	position:absolute;
 	left:0;
-	top:50%;
+	top:60px;
 	z-index:100;
 	display:block;
 	width:26px;
 	height:30px;
 	cursor:pointer;
-	margin:-8px 0 0;
 	background:url('./images/carousel_prev.png') no-repeat left top;
 }
 .set > div .jcarousel-next-horizontal {
 	position:absolute;
 	right:0;
-	top:50%;
+	top:60px;
 	z-index:100;
 	display:block;
 	width:26px;
 	height:30px;
 	cursor:pointer;
-	margin:-8px 0 0;
 	background:url('./images/carousel_next.png') no-repeat left top;
 }
 .set > div .jcarousel-prev-disabled-horizontal, .set .jcarousel-next-disabled-horizontal {
     cursor:default;
 	opacity:0.5;
+}
+.set h2 {
+	overflow:hidden;
+	max-height:40px;
+	font-size:16px;
+	line-height:20px;
+	font-weight:normal;
+    font-family:'Boblic', sans-serif;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+.set h2 a {
+	color:#ffffff;
+}
+.set h5 {
+	color:#ffffff;
+	font-size:16px;
+	line-height:19px;
+	font-weight:normal;
+	font-family:'Boblic', sans-serif;
+	text-align:center;
+	padding:0;
+	margin:0 0 -3px;
+}
+.set h5 span {
+	font-family:'Rouble';
+}
+.set h6 {
+	color:#c9c9c9;
+	font-size:10px;
+	line-height:12px;
+	font-weight:normal;
+	font-family:'Segoe UI', sans-serif;
+	text-align:center;
+	padding:0;
+	margin:-2px 0 -1px;
 }
 .catlist {
 	clear:both;
